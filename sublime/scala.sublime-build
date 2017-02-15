@@ -1,0 +1,4 @@
+{
+  "shell_cmd": "mkdir $file_path/classes >/dev/null 2>&1; scalac -d classes $file && scala -cp classes $file_base_name",
+  "selector": "source.scala"
+}
